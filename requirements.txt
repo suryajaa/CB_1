@@ -1,0 +1,12 @@
+python-dotenv
+pandas
+streamlit
+mysql-connector-python
+langchain
+langchain_community
+langchain_gemini
+langchain_core
+pydantic
+pytest
+google-generativeai
+
