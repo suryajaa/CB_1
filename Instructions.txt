@@ -1,0 +1,35 @@
+# Project Setup Instructions
+
+## Prerequisites 
+1. Install Python 3.7 or higher. 
+2. Ensure you have `pip` (Python package installer) installed.
+
+## Project Setup 
+1. Clone the project repository to your local machine. 
+2. Navigate to the project directory.
+
+## Virtual Environment Setup 
+1. Create a virtual environment to manage project dependencies: python -m venv env_name
+2. Activate the virtual environment:
+On Windows: .\venv\Scripts\activate
+
+##Install Dependencies
+Install the required packages using pip: pip install -r requirements.txt
+
+##Environment Variables
+1. Create a .env file in the root directory of the project.
+2. Add your Google API key to the .env file: GOOGLE_API_KEY=your_google_api_key_here
+
+##Running the Project
+1. Start the FastAPI backend server: uvicorn backend:app --reload
+2. Run the Streamlit frontend: streamlit run index.py
+
+#Testing
+1. Test the backend endpoints using tools like Postman or cURL.
+2. Use the Streamlit frontend to interact with the chatbot and verify functionality.
+
+Notes
+1. Make sure the database files (employee.db and user.db) are accessible and properly configured.
+2. From requirements.txt, the only dependencies/packages needed are Pydantic, fastAPI, streamlit, requests, pandas, bcrypt, google-generative-ai, dotenv, uvicorn.
+
+
