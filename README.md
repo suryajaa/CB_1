@@ -1,12 +1,12 @@
 The final project that runs contains:
--index.py
--chatbot.py
--model.py
--backend.py
--Users.db
--employee.db
--requirements
--Instructions
--employee_data(contains csv form of employee database)
--database.py(used to create Users.db)
--csv_to_sqlite.py(used to convert employee_data to employee.db)
+- index.py
+- chatbot.py
+- model.py
+- backend.py
+- Users.db
+- employee.db
+- requirements
+- Instructions
+- employee_data(contains csv form of employee database)
+- database.py(used to create Users.db)
+- csv_to_sqlite.py(used to convert employee_data to employee.db)
